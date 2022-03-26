@@ -1,0 +1,54 @@
+﻿.register{
+    background-size: cover;
+    height:  calc(100vh -50px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: url('https://assets.entrepreneur.com/content/3x2/2000/20200302163500-libro1.jpeg?width=700&crop=2:1' )
+    
+}
+
+.registerTitle{
+    font-size: 50px;
+
+}
+
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label{
+    margin: 10px 0;
+}
+
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color:teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
